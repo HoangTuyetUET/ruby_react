@@ -1,24 +1,27 @@
-# README
+backend Ruby on Rails 5.2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+frontend React 16.2.0
 
-Things you may want to cover:
+## 実行
 
-* Ruby version
+Ruby on Rails
+```
+bundle 
+rake db:migrate
+```
 
-* System dependencies
+React
+```
+cd crud_front
+npm install
+```
 
-* Configuration
+実行
+```
+rails s -p 3001
+yarn start
+```
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
